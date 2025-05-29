@@ -62,6 +62,9 @@ Multiple models were tested using `scikit-learn`:
 - `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ---
+pip install -r requirements.txt
+streamlit run load.py
+
 loan-prediction/
 ├── load.py                      # Streamlit web app
 ├── Loan_prediction_model.sav    # Saved logistic regression model (using joblib or pickle)
