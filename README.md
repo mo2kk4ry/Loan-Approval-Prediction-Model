@@ -1,7 +1,6 @@
 # 🏦 Loan Approval Prediction Model
 
 This project uses machine learning to predict whether a loan application will be approved based on user data such as income, employment status, and credit history.
-
 ---
 
 ## 📊 Dataset Overview
