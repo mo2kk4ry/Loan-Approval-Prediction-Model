@@ -62,3 +62,10 @@ Multiple models were tested using `scikit-learn`:
 - `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ---
+loan-prediction/
+├── load.py                      # Streamlit web app
+├── Loan_prediction_model.sav    # Saved logistic regression model (using joblib or pickle)
+├── loan_prediction.ipynb        # Jupyter notebook with full ML workflow
+├── dataset.csv                  # Raw dataset for training
+├── requirements.txt             # List of dependencies
+└── README.md                    # Project documentation
