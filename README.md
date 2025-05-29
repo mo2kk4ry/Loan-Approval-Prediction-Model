@@ -62,13 +62,17 @@ Multiple models were tested using `scikit-learn`:
 - `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
 ---
+### ▶️ To Run the App Locally
+
+1. Install the required packages:
+```bash
 pip install -r requirements.txt
 streamlit run load.py
 
 loan-prediction/
-├── load.py                      # Streamlit web app
-├── Loan_prediction_model.sav    # Saved logistic regression model (using joblib or pickle)
-├── loan_prediction.ipynb        # Jupyter notebook with full ML workflow
-├── dataset.csv                  # Raw dataset for training
-├── requirements.txt             # List of dependencies
-└── README.md                    # Project documentation
+├── load.py                         # Streamlit web app for loan prediction
+├── Loan_prediction_model.sav       # Trained logistic regression model (saved with joblib or pickle)
+├── Loan_eligibility_prediction.ipynb  # Jupyter notebook with full ML workflow
+├── dataset.csv                     # Dataset used for training and testing
+├── requirements.txt                # Python package dependencies
+└── README.md                      # Project documentation (this file)
